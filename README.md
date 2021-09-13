@@ -11,6 +11,7 @@
 * [Bindings](#bindings)
 * [File Formats and Parsers](#file-formats-and-parsers)
 * [Databases](#databases)
+* [Search](#search)
 * [Web Development](#web-development)
 * [Logging](#logging)
 * [Console](#console)
@@ -92,6 +93,9 @@
 * [JDBC](https://github.com/jokade/scalanative-jdbc) - Port of the database access layer [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity) to Scala Native.
 * [SQLite4S](https://github.com/david-bouyssie/sqlite4s) - Port of the Java library [Sqlite4java](https://bitbucket.org/almworks/sqlite4java). Includes bindings for the SQLite native library.
 
+## Search
+* [rtree2d](https://github.com/plokhotnyuk/rtree2d) - 2D immutable R-tree with STR (Sort-Tile-Recursive) packing for ultra-fast nearest and intersection queries in plane or spheric coordinates.
+
 ## Web Development
 * [Trail](https://github.com/sparsetech/trail) - Routing library.
 * [sttp](https://github.com/softwaremill/sttp) - HTTP Client library.
@@ -120,6 +124,7 @@
 * [k8s-cli](https://github.com/fsat/k8s-cli) - CLI tools to generate [Kubernetes](https://kubernetes.io/) resources for [Akka](https://akka.io/), [Play Framework](https://www.playframework.com/) and [Lagom](https://www.lagomframework.com/)-based applications.
 * [Coursier](https://github.com/coursier/coursier) - Coursier's [`bootstrap` command](https://get-coursier.io/docs/cli-native-bootstrap) generates native launchers.
 * [fractals](https://github.com/Rusty-Bike/fractals) - A self-similar fractal generator with basic animation support.
+
 ## Infrastructure
 * [Seed Docker image](https://hub.docker.com/r/tindzk/seed/tags) - Docker image for cross-platform builds with [Seed](https://github.com/tindzk/seed).
 * [scala-native-sbt-docker](https://github.com/ScalaWilliam/scala-native-sbt-docker) - Docker image for Scala Native and sbt.
